@@ -1,0 +1,350 @@
+Link: https://pararius.com/apartment-for-rent/almere/e575d023/engelandstraat
+Title: Flat Engelandstraat
+Subtitle: 1363 DE Almere (Europakwartier W.-Noord)
+Price: €2,150 per month
+
+Link: https://pararius.com/house-for-rent/almere/2555a76d/esdoornplantsoen
+Title: House Esdoornplantsoen
+Subtitle: 1326 BW Almere (Parkwijk Noordoost)
+Price: €2,450 per month
+
+Link: https://pararius.com/apartment-for-rent/almere/03e7c60a/stationsplein
+Title: Flat Stationsplein 5 C
+Subtitle: 1315 KS Almere (Centrum Stad Oost)
+Price: €2,350 per month
+
+Link: https://pararius.com/house-for-rent/almere/679a501d/isadora-duncanweg
+Title: House Isadora Duncanweg
+Subtitle: 1326 SN Almere (Danswijk Zuidoost)
+Price: €1,895 per month
+
+Link: https://pararius.com/house-for-rent/almere/91e5c787/ijslandstraat
+Title: House IJslandstraat
+Subtitle: 1363 DR Almere (Europakwartier W.-West)
+Price: €2,600 per month
+
+Link: https://pararius.com/house-for-rent/almere/e633de90/a-den-doolaardstraat
+Title: House A. den Doolaardstraat
+Subtitle: 1321 GA Almere (Literatuurwijk Midden-oost)
+Price: €2,300 per month
+
+Link: https://pararius.com/house-for-rent/almere/1195aae3/haagbeukweg
+Title: House Haagbeukweg
+Subtitle: 1326 AV Almere (Parkwijk Noordwest)
+Price: €1,850 per month
+
+Link: https://pararius.com/house-for-rent/almere/c09d5edc/vondelstraat
+Title: House Vondelstraat
+Subtitle: 1321 VW Almere (Literatuurwijk Noordwest)
+Price: €2,500 per month
+
+Link: https://pararius.com/house-for-rent/almere/7e0f3798/moessorgskystraat
+Title: House Moessorgskystraat
+Subtitle: 1323 PS Almere (Muziekwijk Z.-Noord)
+Price: €2,160 per month
+
+Link: https://pararius.com/house-for-rent/almere/8846c10a/strijkmolenstraat
+Title: House Strijkmolenstraat
+Subtitle: 1333 EN Almere (Molenbuurt Oost)
+Price: €1,850 per month
+
+Link: https://pararius.com/apartment-for-rent/almere/3b1d84f1/stadhuisplein
+Title: Flat Stadhuisplein 55
+Subtitle: 1315 XA Almere (Centrum Stad Oost)
+Price: €1,350 per month
+
+Link: https://pararius.com/house-for-rent/almere/dfe698a6/danslaan
+Title: House Danslaan 30
+Subtitle: 1326 NA Almere (Danswijk Noordoost)
+Price: €2,300 per month
+
+Link: https://pararius.com/apartment-for-rent/almere/992dd166/agamemnonsingel
+Title: Flat Agamemnonsingel
+Subtitle: 1363 VH Almere (Homeruskwartier Midden)
+Price: €1,495 per month
+
+Link: https://pararius.com/apartment-for-rent/almere/9698e370/messiaenplantsoen
+Title: Flat Messiaenplantsoen 67
+Subtitle: 1323 LG Almere (Muziekwijk Z.-West)
+Price: €2,168 per month
+
+Link: https://pararius.com/house-for-rent/almere/e9316591/peppengouw
+Title: House Peppengouw
+Subtitle: 1351 NC Almere (Bosgouw, Brongouw en Nijvergouw)
+Price: €2,300 per month
+
+Link: https://pararius.com/apartment-for-rent/almere/8c2c5f80/adriaen-blockstraat
+Title: Flat Adriaen Blockstraat
+Subtitle: 1363 LT Almere (Columbuskwartier Noord)
+Price: €2,250 per month
+
+Link: https://pararius.com/house-for-rent/almere/9ee2c978/elvis-presleystraat
+Title: House Elvis Presleystraat
+Subtitle: 1311 HN Almere (Muziekwijk N.-Zuidwest)
+Price: €1,950 per month
+
+Link: https://pararius.com/house-for-rent/almere/dd05b40b/jerseystraat
+Title: House Jerseystraat
+Subtitle: 1339 TP Almere (Eilandenbuurt Noord)
+Price: €1,950 per month
+
+Link: https://pararius.com/house-for-rent/almere/12bb3375/g-t-rietveldstraat
+Title: House G.T. Rietveldstraat
+Subtitle: 1333 LG Almere (Bouwmeesterbuurt Noord)
+Price: €2,000 per month
+
+Link: https://pararius.com/room-for-rent/almere/c33439e7/tahitistraat
+Title: Room Tahitistraat 19
+Subtitle: 1339 PJ Almere (Eilandenbuurt Zuid)
+Price: €735 per month
+
+Link: https://pararius.com/house-for-rent/almere/d5a6d87b/multatuliweg
+Title: House Multatuliweg
+Subtitle: 1321 EB Almere (Literatuurwijk Noordoost)
+Price: €3,000 per month
+
+Link: https://pararius.com/apartment-for-rent/almere/28dc9ac2/joris-ivenslaan
+Title: Flat Joris Ivenslaan
+Subtitle: 1325 RJ Almere (Filmwijk Zuid-noord van Walt Disneyplts.)
+Price: €1,695 per month
+
+Link: https://pararius.com/apartment-for-rent/almere/a837d49d/marinaweg
+Title: Flat Marinaweg
+Subtitle: 1361 AG Almere (Duin Zuid)
+Price: €2,775 per month
+
+Link: https://pararius.com/apartment-for-rent/almere/f7c48470/koetsierbaan
+Title: Flat Koetsierbaan
+Subtitle: 1315 SR Almere (Centrum Stad Zuidwest)
+Price: €2,900 per month
+
+Link: https://pararius.com/apartment-for-rent/almere/b8a4d4c6/koetsierbaan
+Title: Flat Koetsierbaan
+Subtitle: 1315 SR Almere (Centrum Stad Zuidwest)
+Price: €2,399 per month
+
+Link: https://pararius.com/house-for-rent/almere/3901829d/abel-tasmanstraat
+Title: House Abel Tasmanstraat
+Subtitle: 1363 KB Almere (Columbuskwartier Zuid)
+Price: €2,500 per month
+
+Link: https://pararius.com/house-for-rent/almere/c7529a61/gaffel
+Title: House Gaffel
+Subtitle: 1319 BV Almere (Noorderplassen W.-Zuid)
+Price: €3,200 per month
+
+Link: https://pararius.com/house-for-rent/almere/bdaa499b/maartstraat
+Title: House Maartstraat
+Subtitle: 1335 BC Almere (Seizoenenbuurt Oost)
+Price: €1,850 per month
+
+Link: https://pararius.com/apartment-for-rent/almere/568665aa/rentmeesterstraat
+Title: Flat Rentmeesterstraat
+Subtitle: 1315 JS Almere (Centrum Stad West)
+Price: €1,750 per month
+
+Link: https://pararius.com/apartment-for-rent/almere/916b0383/rentmeesterstraat
+Title: Flat Rentmeesterstraat
+Subtitle: 1315 JS Almere (Centrum Stad West)
+Price: €1,850 per month
+
+Link: https://pararius.com/apartment-for-rent/almere/201e93a3/rentmeesterstraat
+Title: Flat Rentmeesterstraat
+Subtitle: 1315 JS Almere (Centrum Stad West)
+Price: €1,950 per month
+
+Link: https://pararius.com/apartment-for-rent/almere/a12eb75e/rentmeesterstraat
+Title: Flat Rentmeesterstraat
+Subtitle: 1315 JS Almere (Centrum Stad West)
+Price: €1,650 per month
+
+Link: https://pararius.com/house-for-rent/almere/d4213cec/middelburgweg
+Title: House Middelburgweg
+Subtitle: 1324 TA Almere (Stedenwijk Midden-west)
+Price: €1,800 per month
+
+Link: https://pararius.com/house-for-rent/almere/6509463d/achillesstraat
+Title: House Achillesstraat 70
+Subtitle: 1363 VM Almere (Homeruskwartier Zuid)
+Price: €2,200 per month
+
+Link: https://pararius.com/house-for-rent/almere/745c7de4/jan-van-eyckstraat
+Title: House Jan van Eyckstraat
+Subtitle: 1318 GC Almere (Tussen de Vaarten N.- Noord)
+Price: €2,245 per month
+
+Link: https://pararius.com/house-for-rent/almere/526926e5/danslaan
+Title: House Danslaan
+Subtitle: 1326 NB Almere (Danswijk Noordoost)
+Price: €1,850 per month
+
+Link: https://pararius.com/apartment-for-rent/almere/865bc4c9/bartolomeus-diazstraat
+Title: Flat Bartolomeus Diazstraat
+Subtitle: 1363 KC Almere (Columbuskwartier Zuid)
+Price: €1,600 per month
+
+Link: https://pararius.com/house-for-rent/almere/38397165/europalaan
+Title: House Europalaan
+Subtitle: 1362 JV Almere (Europakwartier Oost (brt))
+Price: €2,750 per month
+
+Link: https://pararius.com/house-for-rent/almere/f251c5d8/tarantellastraat
+Title: House Tarantellastraat
+Subtitle: 1326 LX Almere (Danswijk Noordwest)
+Price: €1,750 per month
+
+Link: https://pararius.com/house-for-rent/almere/656696cd/hendrik-marsmanstraat
+Title: House Hendrik Marsmanstraat 146
+Subtitle: 1321 SE Almere (Literatuurwijk Noordwest)
+Price: €1,900 per month
+
+Link: https://pararius.com/house-for-rent/almere/2fb32a7c/reggeplantsoen
+Title: House Reggeplantsoen
+Subtitle: 1316 SX Almere (Waterwijk Zuid)
+Price: €3,000 per month
+
+Link: https://pararius.com/house-for-rent/almere/4fb75376/dageraadstraat
+Title: House Dageraadstraat
+Subtitle: 1335 VP Almere (Oostvaardersbuurt Oost)
+Price: €1,900 per month
+
+Link: https://pararius.com/house-for-rent/almere/8e3fa285/kerseboomstraat
+Title: House Kerseboomstraat
+Subtitle: 1326 DH Almere (Parkwijk Noordoost)
+Price: €1,800 per month
+
+Link: https://pararius.com/house-for-rent/almere/2015b8d1/esselaar
+Title: House Esselaar
+Subtitle: 1359 KR Almere (De Laren Noord)
+Price: €4,500 per month
+
+Link: https://pararius.com/house-for-rent/almere/a958fd65/ankerbol
+Title: House Ankerbol
+Subtitle: 1319 DH Almere (Noorderplassen W.-Oost)
+Price: €2,811 per month
+
+Link: https://pararius.com/house-for-rent/almere/90d90f1a/achtknoop
+Title: House Achtknoop
+Subtitle: 1319 GL Almere (Noorderplassen W.- Noord)
+Price: €3,800 per month
+
+Link: https://pararius.com/apartment-for-rent/almere/f60de6d6/mandelaplein
+Title: Flat Mandelaplein 1 1404
+Subtitle: 1314 CG Almere (Centrum Stad Noord)
+Price: €2,310 per month
+
+Link: https://pararius.com/apartment-for-rent/almere/cd213420/mandelaplein
+Title: Flat Mandelaplein 1 1419
+Subtitle: 1314 CG Almere (Centrum Stad Noord)
+Price: €1,815 per month
+
+Link: https://pararius.com/apartment-for-rent/almere/2ad61aca/anubisstraat
+Title: Flat Anubisstraat
+Subtitle: 1363 XJ Almere (Homeruskwartier Zuid)
+Price: €1,650 per month
+
+Link: https://pararius.com/apartment-for-rent/almere/1725bb1f/makassarweg
+Title: Flat Makassarweg
+Subtitle: 1335 HW Almere (Indische Buurt West)
+Price: €1,750 per month
+
+Link: https://pararius.com/apartment-for-rent/almere/201e93a3/rentmeesterstraat
+Title: Flat Rentmeesterstraat
+Subtitle: 1315 JS Almere (Centrum Stad West)
+Price: €1,950 per month
+
+Link: https://pararius.com/apartment-for-rent/almere/a12eb75e/rentmeesterstraat
+Title: Flat Rentmeesterstraat
+Subtitle: 1315 JS Almere (Centrum Stad West)
+Price: €1,650 per month
+
+Link: https://pararius.com/house-for-rent/almere/d4213cec/middelburgweg
+Title: House Middelburgweg
+Subtitle: 1324 TA Almere (Stedenwijk Midden-west)
+Price: €1,800 per month
+
+Link: https://pararius.com/house-for-rent/almere/6509463d/achillesstraat
+Title: House Achillesstraat 70
+Subtitle: 1363 VM Almere (Homeruskwartier Zuid)
+Price: €2,200 per month
+
+Link: https://pararius.com/house-for-rent/almere/745c7de4/jan-van-eyckstraat
+Title: House Jan van Eyckstraat
+Subtitle: 1318 GC Almere (Tussen de Vaarten N.- Noord)
+Price: €2,245 per month
+
+Link: https://pararius.com/house-for-rent/almere/526926e5/danslaan
+Title: House Danslaan
+Subtitle: 1326 NB Almere (Danswijk Noordoost)
+Price: €1,850 per month
+
+Link: https://pararius.com/apartment-for-rent/almere/865bc4c9/bartolomeus-diazstraat
+Title: Flat Bartolomeus Diazstraat
+Subtitle: 1363 KC Almere (Columbuskwartier Zuid)
+Price: €1,600 per month
+
+Link: https://pararius.com/house-for-rent/almere/38397165/europalaan
+Title: House Europalaan
+Subtitle: 1362 JV Almere (Europakwartier Oost (brt))
+Price: €2,750 per month
+
+Link: https://pararius.com/house-for-rent/almere/f251c5d8/tarantellastraat
+Title: House Tarantellastraat
+Subtitle: 1326 LX Almere (Danswijk Noordwest)
+Price: €1,750 per month
+
+Link: https://pararius.com/house-for-rent/almere/656696cd/hendrik-marsmanstraat
+Title: House Hendrik Marsmanstraat 146
+Subtitle: 1321 SE Almere (Literatuurwijk Noordwest)
+Price: €1,900 per month
+
+Link: https://pararius.com/house-for-rent/almere/2fb32a7c/reggeplantsoen
+Title: House Reggeplantsoen
+Subtitle: 1316 SX Almere (Waterwijk Zuid)
+Price: €3,000 per month
+
+Link: https://pararius.com/house-for-rent/almere/4fb75376/dageraadstraat
+Title: House Dageraadstraat
+Subtitle: 1335 VP Almere (Oostvaardersbuurt Oost)
+Price: €1,900 per month
+
+Link: https://pararius.com/house-for-rent/almere/8e3fa285/kerseboomstraat
+Title: House Kerseboomstraat
+Subtitle: 1326 DH Almere (Parkwijk Noordoost)
+Price: €1,800 per month
+
+Link: https://pararius.com/house-for-rent/almere/2015b8d1/esselaar
+Title: House Esselaar
+Subtitle: 1359 KR Almere (De Laren Noord)
+Price: €4,500 per month
+
+Link: https://pararius.com/house-for-rent/almere/a958fd65/ankerbol
+Title: House Ankerbol
+Subtitle: 1319 DH Almere (Noorderplassen W.-Oost)
+Price: €2,811 per month
+
+Link: https://pararius.com/house-for-rent/almere/90d90f1a/achtknoop
+Title: House Achtknoop
+Subtitle: 1319 GL Almere (Noorderplassen W.- Noord)
+Price: €3,800 per month
+
+Link: https://pararius.com/apartment-for-rent/almere/f60de6d6/mandelaplein
+Title: Flat Mandelaplein 1 1404
+Subtitle: 1314 CG Almere (Centrum Stad Noord)
+Price: €2,310 per month
+
+Link: https://pararius.com/apartment-for-rent/almere/cd213420/mandelaplein
+Title: Flat Mandelaplein 1 1419
+Subtitle: 1314 CG Almere (Centrum Stad Noord)
+Price: €1,815 per month
+
+Link: https://pararius.com/apartment-for-rent/almere/2ad61aca/anubisstraat
+Title: Flat Anubisstraat
+Subtitle: 1363 XJ Almere (Homeruskwartier Zuid)
+Price: €1,650 per month
+
+Link: https://pararius.com/apartment-for-rent/almere/1725bb1f/makassarweg
+Title: Flat Makassarweg
+Subtitle: 1335 HW Almere (Indische Buurt West)
+Price: €1,750 per month
+
