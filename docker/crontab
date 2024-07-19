@@ -1,0 +1,2 @@
+# Run the script every 10 minutes
+* * * * * /find-home >> /var/log/cron.log 2>&1

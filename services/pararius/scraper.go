@@ -3,20 +3,21 @@ package pararius
 import (
 	"fmt"
 	"log"
+	"net/http"
 
 	"github.com/gocolly/colly"
-	listings "github.com/xenbyte/find-house/data"
+	"github.com/xenbyte/find-house/listings"
 	"github.com/xenbyte/find-house/utils"
 )
 
 func ScrapeListings(city string) []listings.Listing {
 	c := colly.NewCollector()
-	var listings []listings.Listing
+	var ls []listings.Listing
 	page := 1
 
 	for {
 		url := fmt.Sprintf("https://www.pararius.com/apartments/%s/page-%d", city, page)
-		if !utils.CheckURLStatus(url) {
+		if !CheckParariusURLStatus(url) {
 			break
 		}
 
@@ -36,14 +37,14 @@ func ScrapeListings(city string) []listings.Listing {
 					log.Println("couldn't parse ID: ", err.Error())
 				}
 
-				listing := Listing{
+				listing := listings.Listing{
 					ID:       id,
 					Link:     fmt.Sprintf("https://pararius.com%v", el.ChildAttr("div.listing-search-item__depiction a.listing-search-item__link--depiction", "href")),
 					Title:    title,
 					Subtitle: subtitle,
 					Price:    price,
 				}
-				listings = append(listings, listing)
+				ls = append(ls, listing)
 			})
 		})
 
@@ -56,5 +57,30 @@ func ScrapeListings(city string) []listings.Listing {
 	}
 
 	c.Wait()
-	return listings
+	return ls
+}
+
+func CheckParariusURLStatus(url string) bool {
+	req, err := http.NewRequest("HEAD", url, nil)
+	if err != nil {
+		log.Println("ERROR")
+		return false
+	}
+
+	req.Header.Set("Content-Type", "application/x-www-form-urlencoded")
+
+	client := &http.Client{
+		CheckRedirect: func(req *http.Request, via []*http.Request) error {
+			return http.ErrUseLastResponse
+		},
+	}
+
+	resp, err := client.Do(req)
+	if err != nil {
+		log.Printf("Error checking URL %s: %v", url, err)
+		return false
+	}
+	defer resp.Body.Close()
+
+	return resp.StatusCode == http.StatusOK || resp.StatusCode == http.StatusMovedPermanently
 }

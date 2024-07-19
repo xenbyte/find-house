@@ -3,49 +3,18 @@ package utils
 import (
 	"encoding/csv"
 	"fmt"
-	"log"
-	"net/http"
 	"os"
 	"regexp"
 	"strconv"
 	"strings"
+
+	"github.com/xenbyte/find-house/listings"
 )
 
-// checkURLStatus checks the HTTP status of a URL
-func CheckURLStatus(url string) bool {
-	req, err := http.NewRequest("HEAD", url, nil)
-	if err != nil {
-		log.Println("ERROR")
-		return false
-	}
-
-	req.Header.Set("Content-Type", "application/x-www-form-urlencoded")
-
-	client := &http.Client{
-		CheckRedirect: func(req *http.Request, via []*http.Request) error {
-			return http.ErrUseLastResponse
-		},
-	}
-
-	resp, err := client.Do(req)
-	if err != nil {
-		log.Printf("Error checking URL %s: %v", url, err)
-		return false
-	}
-	defer resp.Body.Close()
-
-	return resp.StatusCode == http.StatusOK || resp.StatusCode == http.StatusMovedPermanently
-}
-
 func ExtractPriceNumber(input string) (int, error) {
-	// Define a regular expression to match the price part
 	re := regexp.MustCompile(`[\d,]+`)
 	priceStr := re.FindString(input)
-
-	// Remove any commas from the matched string
 	cleanPriceStr := strings.Replace(priceStr, ",", "", -1)
-
-	// Convert the cleaned string to an integer
 	price, err := strconv.Atoi(cleanPriceStr)
 	if err != nil {
 		return 0, err
@@ -61,18 +30,16 @@ func ExtractIDFromURL(url string) (string, error) {
 		return "", err
 	}
 
-	// Find the matching part of the URL
 	matches := r.FindStringSubmatch(url)
 	if len(matches) < 2 {
 		return "", fmt.Errorf("id not found in URL")
 	}
 
-	// Extract and return the id
 	id := matches[1]
 	return id, nil
 }
 
-func WriteListingsToCSV(filename string, listings []pararius.Listing, existingListings map[string]bool) error {
+func WriteListingsToCSV(filename string, listings []listings.Listing, existingListings map[string]bool) error {
 	file, err := os.OpenFile(filename, os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
 	if err != nil {
 		return err
@@ -95,9 +62,59 @@ func WriteListingsToCSV(filename string, listings []pararius.Listing, existingLi
 				return err
 			}
 			existingListings[listing.ID] = true
-			fmt.Println(listing.Link + " (new)")
 		}
 	}
 
 	return nil
+
+}
+
+func ReadExistingListings(filename string) (map[string]bool, bool, error) {
+	existingListings := make(map[string]bool)
+	fileExisted := true
+
+	file, err := os.Open(filename)
+	if err != nil {
+		if os.IsNotExist(err) {
+			// File does not exist, return empty map and print init message
+			fmt.Println("CSV file not found, initializing...")
+			// Create the file for future use
+			if createErr := createCSVFile(filename); createErr != nil {
+				return nil, false, createErr
+			}
+			fileExisted = false
+			return existingListings, fileExisted, nil
+		}
+		return nil, false, err
+	}
+	defer file.Close()
+
+	reader := csv.NewReader(file)
+	records, err := reader.ReadAll()
+	if err != nil {
+		return nil, false, err
+	}
+
+	for _, record := range records {
+		if len(record) > 0 {
+			existingListings[record[0]] = true
+		}
+	}
+
+	return existingListings, fileExisted, nil
+}
+
+func createCSVFile(filename string) error {
+	file, err := os.Create(filename)
+	if err != nil {
+		return err
+	}
+	defer file.Close()
+
+	writer := csv.NewWriter(file)
+	defer writer.Flush()
+
+	// Write header to CSV file
+	headers := []string{"ID", "Link", "Title", "Subtitle", "Price"}
+	return writer.Write(headers)
 }

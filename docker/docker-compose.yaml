@@ -1,0 +1,37 @@
+services:
+  find-house-almere:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    environment:
+      - CITY=almere
+      - CSV_FILE=/csv/listings-almere.csv
+      - MAX_PRICE=1500
+      - TELEGRAM_BOT_TOKEN=<TOKEN>
+      - TELEGRAM_USER=<TELEGRAM_USERNAME>
+    volumes:
+      - ../csv:/csv
+  find-house-utrecht:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    environment:
+      - CITY=utrecht
+      - CSV_FILE=/csv/listings-utrecht.csv
+      - MAX_PRICE=1500
+      - TELEGRAM_BOT_TOKEN=<TOKEN>
+      - TELEGRAM_USER=<TELEGRAM_USERNAME>
+    volumes:
+      - ../csv:/csv
+  find-house-houten:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    environment:
+      - CITY=houten
+      - CSV_FILE=/csv/listings-houten.csv
+      - MAX_PRICE=1500
+      - TELEGRAM_BOT_TOKEN=<TOKEN>
+      - TELEGRAM_USER=<TELEGRAM_USERNAME>
+    volumes:
+      - ../csv:/csv

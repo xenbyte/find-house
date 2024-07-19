@@ -1,10 +1,9 @@
 package main
 
 import (
-	"flag"
-	"fmt"
+	"log"
 
-	"github.com/xenbyte/find-house/services/pararius"
+	"github.com/xenbyte/find-house/config"
 )
 
 type Listing struct {
@@ -15,21 +14,25 @@ type Listing struct {
 	Price    int
 }
 
+var (
+	maxPrice     int
+	city         string
+	csvFile      string
+	apiToken     string
+	telegramUser string
+)
+
 func main() {
-	// Define the city flag
-	city := flag.String("city", "lelystad", "The city to search for listings")
+	cfg, err := config.LoadConfig()
+	if err != nil {
+		log.Fatal("Configuration error:", err)
+	}
 
-	// Define the max price flag
-	maxPrice := flag.Int("maxPrice", 1600, "The maximum price for listings")
+	if err := config.ValidateConfig(cfg); err != nil {
+		log.Fatal("Invalid configuration:", err)
+	}
 
-	// Parse the flags
-	flag.Parse()
-
-	// Use the city and max price flag values
-	listings := pararius.ScrapeListings(*city)
-	for _, listing := range listings {
-		if listing.Price < *maxPrice {
-			fmt.Println(listing.Link)
-		}
+	if err := config.ProcessListings(cfg); err != nil {
+		log.Fatal(err)
 	}
 }
