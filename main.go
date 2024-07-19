@@ -1,16 +1,35 @@
 package main
 
 import (
+	"flag"
 	"fmt"
 
 	"github.com/xenbyte/find-house/services/pararius"
 )
 
-func main() {
-	city := "almere"
+type Listing struct {
+	ID       string
+	Link     string
+	Title    string
+	Subtitle string
+	Price    int
+}
 
-	listings := pararius.ScrapeListings(city)
+func main() {
+	// Define the city flag
+	city := flag.String("city", "lelystad", "The city to search for listings")
+
+	// Define the max price flag
+	maxPrice := flag.Int("maxPrice", 1600, "The maximum price for listings")
+
+	// Parse the flags
+	flag.Parse()
+
+	// Use the city and max price flag values
+	listings := pararius.ScrapeListings(*city)
 	for _, listing := range listings {
-		fmt.Printf("ID: %v\nLink: %s\nTitle: %s\nSubtitle: %s\nPrice: %v\n\n", listing.ID, listing.Link, listing.Title, listing.Subtitle, listing.Price)
+		if listing.Price < *maxPrice {
+			fmt.Println(listing.Link)
+		}
 	}
 }

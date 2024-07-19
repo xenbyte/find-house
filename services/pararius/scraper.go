@@ -5,20 +5,13 @@ import (
 	"log"
 
 	"github.com/gocolly/colly"
+	listings "github.com/xenbyte/find-house/data"
 	"github.com/xenbyte/find-house/utils"
 )
 
-type Listing struct {
-	ID       string
-	Link     string
-	Title    string
-	Subtitle string
-	Price    int
-}
-
-func ScrapeListings(city string) []Listing {
+func ScrapeListings(city string) []listings.Listing {
 	c := colly.NewCollector()
-	var listings []Listing
+	var listings []listings.Listing
 	page := 1
 
 	for {
@@ -33,7 +26,11 @@ func ScrapeListings(city string) []Listing {
 				title := el.ChildText("h2.listing-search-item__title")
 				subtitle := el.ChildText("div.listing-search-item__sub-title")
 				priceStr := el.ChildText("div.listing-search-item__price")
-				price := utils.ExtractPriceNumber(priceStr)
+				price, err := utils.ExtractPriceNumber(priceStr)
+				if err != nil {
+					log.Println("couldn't parse ID: ", err.Error())
+				}
+
 				id, err := utils.ExtractIDFromURL(link)
 				if err != nil {
 					log.Println("couldn't parse ID: ", err.Error())
