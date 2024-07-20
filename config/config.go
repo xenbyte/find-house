@@ -18,6 +18,7 @@ type Config struct {
 	CSVFile      string
 	APIToken     string
 	TelegramUser string
+	ChannelName  string
 }
 
 func LoadConfig() (*Config, error) {
@@ -32,6 +33,7 @@ func LoadConfig() (*Config, error) {
 		CSVFile:      getEnv("CSV_FILE", ""),
 		APIToken:     getEnv("TELEGRAM_BOT_TOKEN", ""),
 		TelegramUser: getEnv("TELEGRAM_USER", ""),
+		ChannelName:  getEnv("CHANNEL_NAME", ""),
 	}, nil
 }
 
@@ -72,7 +74,13 @@ func ProcessListings(cfg *Config) error {
 			newListings = append(newListings, listing)
 
 			if fileExisted {
-				chatID, err := notify.GetChatID(cfg.APIToken, cfg.TelegramUser)
+				// chatID, err := notify.GetChatID(cfg.APIToken, cfg.TelegramUser)
+				// if err != nil {
+				// 	log.Println("Error getting chat ID:", err)
+				// 	continue
+				// }
+
+				chatID, err := notify.GetChannelID(cfg.APIToken, cfg.ChannelName)
 				if err != nil {
 					log.Println("Error getting chat ID:", err)
 					continue
